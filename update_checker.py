@@ -194,7 +194,7 @@ def new_Clinvitae_update(update_size, current_size, log_file):
 def send_update(message, disease, date, log_file, website):
     log_file.write( "3. Trying to send mail \n" )
     try:
-        yag = yagmail.SMTP("updates.checking.bot@gmail.com", 'updateschecking123')
+        yag = yagmail.SMTP("updates.checking.bot@gmail.com", *********) #use your id and password incase
         TO = ["vinay@pieriandx.com"]
         Subject = "%s updated on %s by %s" %(disease, date, website)        
         for Recipient in TO:

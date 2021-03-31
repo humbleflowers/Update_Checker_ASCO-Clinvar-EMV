@@ -5,7 +5,7 @@
 Created on Fri Jun  9 15:31:01 2017
 
 @author: vinay kusuma.
-Can be reached at vinay@pieriandx.com
+Can be reached at yaniv.kusuma@gmail.com
 """
 
 import yagmail, csv, requests, urllib2, time, datetime, os, urllib
